@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SolutionKt (sample)" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="day01.SolutionKt" />
+    <module name="advent-of-code-2023" />
+    <option name="PROGRAM_PARAMETERS" value="sample.txt" />
+    <shortenClasspath name="NONE" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/kotlin/day01" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
