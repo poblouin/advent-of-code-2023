@@ -7,21 +7,13 @@ fun main(args: Array<String>) {
     val dayDirectory = File(dayToday)
     val outputFiles = listOf("sample.txt", "input.txt", "Solution.kt")
     val solutionSkeleton = """
-        package ${dayDirectory.name}
-        
-        import java.io.File
-        
-        fun readInput(fileName: String): List<String> {
-            return File("./${'$'}fileName").readLines()
+        fun part1(input: String): String {
+            return input
         }
-
-        fun part1(formattedInput: List<String>): List<String> {
-            return formattedInput
-        }
-
+        
         fun main(args: Array<String>) {
-            val formattedInput = readInput(args[0])
-            println(part1(formattedInput))
+            val input = readInput(args[0])
+            println(part1(input))
         }
     """.trimIndent()
 
