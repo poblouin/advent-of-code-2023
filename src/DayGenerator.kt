@@ -11,9 +11,14 @@ fun main(args: Array<String>) {
             return input
         }
         
+        fun part2(input: String): String {
+            return input
+        }
+        
         fun main(args: Array<String>) {
             val input = readInput(args[0])
             println(part1(input))
+            println(part2(input))
         }
     """.trimIndent()
 

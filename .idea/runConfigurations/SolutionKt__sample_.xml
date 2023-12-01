@@ -4,7 +4,7 @@
     <module name="advent-of-code-2023" />
     <option name="PROGRAM_PARAMETERS" value="sample" />
     <shortenClasspath name="NONE" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day01" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day02" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
