@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="SolutionKt (input)" type="JetRunConfigurationType">
-    <option name="MAIN_CLASS_NAME" value="SolutionKt" />
+    <option name="MAIN_CLASS_NAME" value="day02.SolutionKt" />
     <module name="advent-of-code-2023" />
     <option name="PROGRAM_PARAMETERS" value="input" />
     <shortenClasspath name="NONE" />

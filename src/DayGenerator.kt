@@ -7,18 +7,24 @@ fun main(args: Array<String>) {
     val dayDirectory = File(dayToday)
     val outputFiles = listOf("sample.txt", "input.txt", "Solution.kt")
     val solutionSkeleton = """
-        fun part1(input: String): String {
+        package $dayToday
+        
+        import readInputLines
+        
+        fun part1(input: List<String>): List<String> {
             return input
         }
         
-        fun part2(input: String): String {
+        fun part2(input: List<String>): List<String> {
             return input
         }
         
         fun main(args: Array<String>) {
-            val input = readInput(args[0])
+            val input = readInputLines(args[0])
             println(part1(input))
-            println(part2(input))
+        //    println(part2(input))
+        //    check(part1(input) == 53334)
+        //    check(part2(input) == 52834)
         }
     """.trimIndent()
 

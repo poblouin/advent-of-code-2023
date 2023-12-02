@@ -1,3 +1,7 @@
+package day01
+
+import readInputLines
+
 fun part1(input: List<String>): Int {
     return input
         .map { it.filter(Char::isDigit) }
