@@ -11,17 +11,18 @@ fun main(args: Array<String>) {
         
         import readInputLines
         
-        fun part1(input: List<String>): List<String> {
-            return input
+        fun part1(input: List<String>): Int {
+            return 0
         }
         
-        fun part2(input: List<String>): List<String> {
-            return input
+        fun part2(input: List<String>): Int {
+            return 0
         }
         
         fun main(args: Array<String>) {
             val input = readInputLines(args[0])
-            println(part1(input))
+            println(input)
+        //    println(part1(input))
         //    println(part2(input))
         //    check(part1(input) == 53334)
         //    check(part2(input) == 52834)
