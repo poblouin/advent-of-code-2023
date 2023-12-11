@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="SolutionKt (sample)" type="JetRunConfigurationType">
-    <option name="MAIN_CLASS_NAME" value="day09.SolutionKt" />
+    <option name="MAIN_CLASS_NAME" value="day10.SolutionKt" />
     <module name="advent-of-code-2023" />
     <option name="PROGRAM_PARAMETERS" value="sample" />
     <shortenClasspath name="NONE" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day09" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day10" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
