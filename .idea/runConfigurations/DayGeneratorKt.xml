@@ -2,7 +2,7 @@
   <configuration default="false" name="DayGeneratorKt" type="JetRunConfigurationType" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="DayGeneratorKt" />
     <module name="advent-of-code-2023" />
-    <option name="PROGRAM_PARAMETERS" value="day13" />
+    <option name="PROGRAM_PARAMETERS" value="day14" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
     <method v="2">
